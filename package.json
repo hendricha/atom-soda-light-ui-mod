@@ -1,9 +1,9 @@
 {
-  "name": "soda-light-ui",
+  "name": "soda-light-ui-mod",
   "theme": "ui",
   "version": "0.2.0",
-  "description": "Soda Light theme for interface components",
-  "repository": "https://github.com/dmackerman/atom-soda-light-ui",
+  "description": "Modified Soda Light theme for interface components",
+  "repository": "https://github.com/hendricha/atom-soda-light-ui-mod",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
