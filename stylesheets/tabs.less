@@ -77,9 +77,10 @@
     }
 
     .close-icon {
-      right: 0;
+      left: 0;
+      width: 10px;
       z-index: 3;
-      text-align: right;
+      text-align: left;
       line-height: @tab-height;
       color: @text-color;
 
@@ -89,7 +90,7 @@
     }
 
     &.modified:not(:hover) .close-icon {
-      right: 0;
+      left: 0;
       top: @tab-height/2 - @modified-icon-width/2 + 1px;
       width: @modified-icon-width;
       height: @modified-icon-width;
@@ -100,6 +101,7 @@
     }
 
     .title {
+      left: 18px;
       position: relative;
       z-index: 1;
       padding-right: 10px
